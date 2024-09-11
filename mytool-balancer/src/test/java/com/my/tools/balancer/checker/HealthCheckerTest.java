@@ -1,6 +1,6 @@
 package com.my.tools.balancer.checker;
 
-import com.my.tools.log.LogUtils;
+import com.my.tools.base.LogUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;

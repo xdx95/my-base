@@ -9,17 +9,17 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>mytool-thread</artifactId>
+    <artifactId>mytool-monitor</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.my.tools</groupId>
-            <artifactId>mytool-base</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.my.tools</groupId>
-            <artifactId>mytool-monitor</artifactId>
-        </dependency>
-    </dependencies>
+   <dependencies>
+       <dependency>
+           <groupId>com.my.tools</groupId>
+           <artifactId>mytool-base</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>cglib</groupId>
+           <artifactId>cglib</artifactId>
+       </dependency>
+   </dependencies>
 
 </project>

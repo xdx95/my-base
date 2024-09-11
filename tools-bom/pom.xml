@@ -22,7 +22,12 @@
             </dependency>
             <dependency>
                 <groupId>com.my.tools</groupId>
-                <artifactId>mytool-log</artifactId>
+                <artifactId>mytool-monitor</artifactId>
+                <version>${project.parent.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.my.tools</groupId>
+                <artifactId>mytool-http</artifactId>
                 <version>${project.parent.version}</version>
             </dependency>
             <dependency>

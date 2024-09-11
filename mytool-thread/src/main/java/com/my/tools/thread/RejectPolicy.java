@@ -28,7 +28,7 @@ public enum RejectPolicy {
 	 *
 	 * @return RejectedExecutionHandler
 	 */
-	public RejectedExecutionHandler getValue() {
+	public RejectedExecutionHandler value() {
 		return this.value;
 	}
 

@@ -3,7 +3,7 @@ package com.my.tools.balancer.checker;
 import com.my.tools.balancer.context.BalancerContext;
 import com.my.tools.balancer.server.Server;
 import com.my.tools.balancer.strategy.StrategyEnums;
-import com.my.tools.log.LogUtils;
+import com.my.tools.base.LogUtils;
 import com.my.tools.thread.ThreadUtils;
 import java.util.Comparator;
 import java.util.concurrent.Executors;
@@ -21,7 +21,7 @@ public class HealthCheckManager {
 	private static final Logger log = LogUtils.get();
 
 	private final ScheduledExecutorService
-		executor = Executors.newScheduledThreadPool(1, ThreadUtils.getDefaultThreadFactory());
+		executor = Executors.newScheduledThreadPool(1, ThreadUtils.newThreadFactory("check"));
 
 	private final BalancerContext context;
 	private final HealthChecker checker;

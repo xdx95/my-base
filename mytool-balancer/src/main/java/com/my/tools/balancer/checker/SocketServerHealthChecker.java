@@ -1,6 +1,6 @@
 package com.my.tools.balancer.checker;
 
-import com.my.tools.log.LogUtils;
+import com.my.tools.base.LogUtils;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import org.slf4j.Logger;
